@@ -1,8 +1,7 @@
 -- 新闻资讯应用数据库设计
 -- 创建数据库
-CREATE DATABASE IF NOT EXISTS news_app DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
-USE news_app;
+SET NAMES utf8mb4;
+SET CHARACTER SET utf8mb4;
 
 -- 用户表
 CREATE TABLE IF NOT EXISTS `user` (

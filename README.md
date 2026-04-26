@@ -248,12 +248,12 @@ REDIS_URL = "redis://localhost:6379/0"
 
 6. **创建数据库**
 ```sql
-CREATE DATABASE toutiao CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE 数据库名 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
 7. **导入数据表结构**
 ```bash
-mysql -u root -p toutiao < database.sql
+mysql -u root -p 数据库名 < database.sql
 ```
 
 8. **启动后端服务**
